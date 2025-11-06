@@ -1,0 +1,13 @@
+Submodule dependencies/submodules/PolyHook_2_0 contains modified content
+diff --git a/dependencies/submodules/PolyHook_2_0/CMakeLists.txt b/dependencies/submodules/PolyHook_2_0/CMakeLists.txt
+index 7bf0055..1b8ae3a 100644
+--- a/dependencies/submodules/PolyHook_2_0/CMakeLists.txt
++++ b/dependencies/submodules/PolyHook_2_0/CMakeLists.txt
+@@ -176,7 +176,6 @@ if(MSVC)
+ 		  endif()
+ 
+ 		  set_target_properties(${PROJECT_NAME} PROPERTIES COMPILE_FLAGS ${COMPILE_FLAGS_PLH})
+-		  target_link_libraries(${PROJECT_NAME} PRIVATE optimized -DEBUG) # mhhm ya pdbs
+ 	endif()
+ 
+ endif()

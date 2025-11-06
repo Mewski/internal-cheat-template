@@ -1,0 +1,6 @@
+[submodule "dependencies/submodules/ng-log"]
+	path = dependencies/submodules/ng-log
+	url = https://github.com/ng-log/ng-log.git
+[submodule "dependencies/submodules/PolyHook_2_0"]
+	path = dependencies/submodules/PolyHook_2_0
+	url = https://github.com/stevemk14ebr/PolyHook_2_0.git

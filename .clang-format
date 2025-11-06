@@ -1,0 +1,15 @@
+BasedOnStyle: Google
+TabWidth: 2
+ColumnLimit: 100
+ContinuationIndentWidth: 2
+AlignAfterOpenBracket: BlockIndent
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Empty
+BinPackArguments: false
+BinPackParameters: false
+ReferenceAlignment: Left
+IncludeBlocks: Preserve
+SortIncludes: false
+DerivePointerAlignment: false
+PointerAlignment: Left
